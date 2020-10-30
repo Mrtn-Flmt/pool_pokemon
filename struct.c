@@ -1,16 +1,10 @@
-/*
-** EPITECH PROJECT, 2020
-** struct.h
-** File description:
-** package of struct
-*/
-
 #ifndef COLOR_H
 #define COLOR_H
 
 typedef struct 
 {
     char *name;
+    Pokemon_t pkm_arr;
 } Player_t;
 
 typedef struct 
